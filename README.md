@@ -16,3 +16,9 @@ A Prometheus exporter written in Python to expose RabbitMQ queue metrics.
    export RABBITMQ_HOST=<your_rabbitmq_host>
    export RABBITMQ_USER=<your_rabbitmq_user>
    export RABBITMQ_PASSWORD=<your_rabbitmq_password>
+2. Install dependencies:
+   pip install prometheus-client requests
+3. Run the exporter:
+   python rabbitmq_exporter.py
+
+   
